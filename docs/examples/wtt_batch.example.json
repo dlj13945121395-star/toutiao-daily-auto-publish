@@ -1,0 +1,13 @@
+[
+  {
+    "_comment": "脱敏样例：真实批次文件 wtt_batch.json 已被 .gitignore 排除。此文件仅展示结构。注意 wtt_batch.json 是纯 list、无 status 字段，每条必须带 slot。",
+    "slot": 0,
+    "body": "钩子一句（黄金3秒，带具体画面或反差）……\n引流句（上面的只是个开头…去我主页就能翻到）……\n#站内话题A# #站内话题B# #站内话题C# #站内话题D# #站内话题E#",
+    "images": ["article_inline/s0_a.png"]
+  },
+  {
+    "slot": 1,
+    "body": "钩子一句……\n引流句……\n#站内话题A# #站内话题B# #站内话题C# #站内话题D# #站内话题E#",
+    "images": ["article_inline/s1_a.png"]
+  }
+]

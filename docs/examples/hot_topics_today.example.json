@@ -1,0 +1,20 @@
+{
+  "_comment": "脱敏样例：真实 hot_topics_today.json 已被 .gitignore 排除。trending/positioning/fresh_topics_from_platform 里的话题名必须原样取自站内话题池（topics_platform_<日期>.json，由 fetch_topics.py + merge_topics.py 生成），严禁自编。名字含禁标点（：——「」“”）或内部带空格的话题不能入池。",
+  "date": "2026-10-14",
+  "trending": [
+    "#站内真实话题1#",
+    "#站内真实话题2#",
+    "#站内真实话题3#"
+  ],
+  "positioning": [
+    "#AI工具#",
+    "#人工智能#",
+    "#副业#",
+    "#职场效率#"
+  ],
+  "fresh_topics_from_platform": [
+    "#站内真实话题1#",
+    "#站内真实话题2#",
+    "#站内真实话题3#"
+  ]
+}

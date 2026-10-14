@@ -1,0 +1,46 @@
+# ===== 敏感信息（严禁外传）=====
+toutiao_auth.json
+published_topics.json
+published_topics.json.bak
+replied_comments.json
+replies.json
+pending_comments.json
+
+# ===== 当日生成批次与话题池（运营产物，见 docs/examples/ 脱敏样例）=====
+articles_batch.json
+articles_batch.json.*
+wtt_batch.json
+wtt_batch.json.*
+hot_topics_today.json
+hot_topics_today.json.*
+topics_platform_*.json
+topics_probe*.json
+live_topics_*.json
+gen_batch_*.py
+gen_wtt_*.py
+
+# ===== 当日配图（发后即清；封面 post*.png 保留）=====
+images/article_inline/
+images/article_inline_*/
+
+# ===== 运行台账与临时产物 =====
+last_run.json
+cover_url_cache.json
+article_post.json
+article_capture.json
+article_published.png
+article_scheduled.png
+wtt_post.json
+wtt_slot*.json
+route_detail.txt
+route_dump.txt
+*_inspect.html
+
+# ===== 内部日志与备份 =====
+.workbuddy/
+__pycache__/
+*.pyc
+*.bak
+*.bak_*
+*.log
+*.log.*
